@@ -1,0 +1,214 @@
+[2022-11-20T16:18:58.291Z] 
+[2022-11-20T16:18:58.291Z] boost deploy -e production
+[2022-11-20T16:18:58.291Z] TypeError: config.toEncrypt[klass.name].push is not a function
+[2022-11-20T16:18:58.291Z]     at /Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/rocket-encryption-azure-infrastructure/dist/decorators/encrypt.js:21:46
+[2022-11-20T16:18:58.291Z]     at Function.configureCurrentEnv (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/framework-core/dist/booster.js:33:9)
+[2022-11-20T16:18:58.291Z]     at encrypt (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/rocket-encryption-azure-infrastructure/dist/decorators/encrypt.js:11:30)
+[2022-11-20T16:18:58.291Z]     at /Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/node_modules/tslib/tslib.js:105:41
+[2022-11-20T16:18:58.291Z]     at DecorateConstructor (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/reflect-metadata/Reflect.js:541:33)
+[2022-11-20T16:18:58.291Z]     at Reflect.decorate (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/reflect-metadata/Reflect.js:130:24)
+[2022-11-20T16:18:58.291Z]     at Object.__decorate (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/node_modules/tslib/tslib.js:99:96)
+[2022-11-20T16:18:58.291Z]     at Object.<anonymous> (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/dist/events/test.js:18:21)
+[2022-11-20T16:18:58.291Z]     at Module._compile (node:internal/modules/cjs/loader:1103:14)
+[2022-11-20T16:18:58.291Z]     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[2022-11-20T16:24:43.699Z] 
+[2022-11-20T16:24:43.699Z] boost deploy -e production
+[2022-11-20T16:24:43.699Z] TypeError: config.toEncrypt[klass.name].push is not a function
+[2022-11-20T16:24:43.699Z]     at /Users/Juanjo/Documents/theam/rocket-encryption-azure-infrastructure/dist/decorators/encrypt.js:21:46
+[2022-11-20T16:24:43.699Z]     at Function.configureCurrentEnv (/Users/Juanjo/Documents/theam/rocket-encryption-azure-infrastructure/node_modules/@boostercloud/framework-core/dist/booster.js:33:9)
+[2022-11-20T16:24:43.699Z]     at encrypt (/Users/Juanjo/Documents/theam/rocket-encryption-azure-infrastructure/dist/decorators/encrypt.js:11:30)
+[2022-11-20T16:24:43.699Z]     at /Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/node_modules/tslib/tslib.js:105:41
+[2022-11-20T16:24:43.699Z]     at DecorateConstructor (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/reflect-metadata/Reflect.js:541:33)
+[2022-11-20T16:24:43.699Z]     at Reflect.decorate (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/reflect-metadata/Reflect.js:130:24)
+[2022-11-20T16:24:43.699Z]     at Object.__decorate (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/node_modules/tslib/tslib.js:99:96)
+[2022-11-20T16:24:43.699Z]     at Object.<anonymous> (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/dist/events/test.js:18:21)
+[2022-11-20T16:24:43.699Z]     at Module._compile (node:internal/modules/cjs/loader:1103:14)
+[2022-11-20T16:24:43.699Z]     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[2022-11-20T16:27:10.003Z] 
+[2022-11-20T16:27:10.003Z] boost deploy -e production
+[2022-11-20T16:27:10.003Z] TypeError: config.toEncrypt[klass.name].push is not a function
+[2022-11-20T16:27:10.003Z]     at /Users/Juanjo/Documents/theam/rocket-encryption-azure-infrastructure/dist/decorators/encrypt.js:22:46
+[2022-11-20T16:27:10.003Z]     at Function.configureCurrentEnv (/Users/Juanjo/Documents/theam/rocket-encryption-azure-infrastructure/node_modules/@boostercloud/framework-core/dist/booster.js:33:9)
+[2022-11-20T16:27:10.003Z]     at encrypt (/Users/Juanjo/Documents/theam/rocket-encryption-azure-infrastructure/dist/decorators/encrypt.js:12:30)
+[2022-11-20T16:27:10.003Z]     at /Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/node_modules/tslib/tslib.js:105:41
+[2022-11-20T16:27:10.003Z]     at DecorateConstructor (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/reflect-metadata/Reflect.js:541:33)
+[2022-11-20T16:27:10.003Z]     at Reflect.decorate (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/reflect-metadata/Reflect.js:130:24)
+[2022-11-20T16:27:10.003Z]     at Object.__decorate (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/node_modules/tslib/tslib.js:99:96)
+[2022-11-20T16:27:10.003Z]     at Object.<anonymous> (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/dist/events/test.js:18:21)
+[2022-11-20T16:27:10.003Z]     at Module._compile (node:internal/modules/cjs/loader:1103:14)
+[2022-11-20T16:27:10.003Z]     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[2022-11-20T16:28:42.796Z] 
+[2022-11-20T16:28:42.796Z] boost deploy -e production
+[2022-11-20T16:28:42.796Z] TypeError: config.toEncrypt[klass.name].push is not a function
+[2022-11-20T16:28:42.796Z]     at /Users/Juanjo/Documents/theam/rocket-encryption-azure-infrastructure/dist/decorators/encrypt.js:22:46
+[2022-11-20T16:28:42.796Z]     at Function.configureCurrentEnv (/Users/Juanjo/Documents/theam/rocket-encryption-azure-infrastructure/node_modules/@boostercloud/framework-core/dist/booster.js:33:9)
+[2022-11-20T16:28:42.796Z]     at encrypt (/Users/Juanjo/Documents/theam/rocket-encryption-azure-infrastructure/dist/decorators/encrypt.js:12:30)
+[2022-11-20T16:28:42.796Z]     at /Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/node_modules/tslib/tslib.js:105:41
+[2022-11-20T16:28:42.796Z]     at DecorateConstructor (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/reflect-metadata/Reflect.js:541:33)
+[2022-11-20T16:28:42.796Z]     at Reflect.decorate (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/reflect-metadata/Reflect.js:130:24)
+[2022-11-20T16:28:42.796Z]     at Object.__decorate (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/node_modules/tslib/tslib.js:99:96)
+[2022-11-20T16:28:42.796Z]     at Object.<anonymous> (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/dist/events/test.js:18:21)
+[2022-11-20T16:28:42.796Z]     at Module._compile (node:internal/modules/cjs/loader:1103:14)
+[2022-11-20T16:28:42.796Z]     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[2022-11-20T16:32:55.365Z] 
+[2022-11-20T16:32:55.365Z] boost deploy -e production
+[2022-11-20T16:32:55.365Z] Error: Cannot find module 'rocket-encryption-azure-infrastructure'
+[2022-11-20T16:32:55.365Z] Require stack:
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/framework-common-helpers/dist/rocket-loader.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/framework-common-helpers/dist/index.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/framework-core/dist/booster.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/framework-core/dist/index.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/Documents/theam/tfm-project/tfm-project/dist/index.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/dist/services/config-service.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/dist/commands/build.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@oclif/config/lib/plugin.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@oclif/config/lib/config.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@oclif/config/lib/index.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@oclif/command/lib/command.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@oclif/command/lib/index.js
+[2022-11-20T16:32:55.365Z] - /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/bin/run
+[2022-11-20T16:32:55.365Z]     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+[2022-11-20T16:32:55.365Z]     at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+[2022-11-20T16:32:55.365Z]     at Module.require (node:internal/modules/cjs/loader:1005:19)
+[2022-11-20T16:32:55.365Z]     at require (node:internal/modules/cjs/helpers:102:18)
+[2022-11-20T16:32:55.365Z]     at Function.requireRocket (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/framework-common-helpers/dist/rocket-loader.js:8:16)
+[2022-11-20T16:32:55.365Z]     at loadRocket (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/framework-common-helpers/dist/rocket-loader.js:12:44)
+[2022-11-20T16:32:55.365Z]     at Array.map (<anonymous>)
+[2022-11-20T16:32:55.365Z]     at Object.Infrastructure (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@boostercloud/framework-provider-azure-infrastructure/dist/index.js:14:109)
+[2022-11-20T16:32:55.365Z]     at Object.infrastructure (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/.deploy/node_modules/@boostercloud/framework-provider-azure/dist/index.js:83:31)
+[2022-11-20T16:32:55.365Z]     at supportedInfrastructureMethodOrDie (/Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/dist/services/provider-service.js:31:36)[2022-11-20T16:47:42.573Z] 
+[2022-11-20T16:47:42.573Z] boost deploy -e production
+[2022-11-20T16:47:42.573Z] ChildProcessError: Command failed: npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies
+[2022-11-20T16:47:42.573Z] non-zero exit code 1
+[2022-11-20T16:47:42.573Z]  `npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies` (exited with error code 1)
+[2022-11-20T16:47:42.573Z]     at callback (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/child-process-promise/lib/index.js:33:27)
+[2022-11-20T16:47:42.573Z]     at ChildProcess.exithandler (node:child_process:406:5)
+[2022-11-20T16:47:42.573Z]     at ChildProcess.emit (node:events:526:28)
+[2022-11-20T16:47:42.573Z]     at maybeClose (node:internal/child_process:1092:16)
+[2022-11-20T16:47:42.573Z]     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)[2022-11-21T12:53:01.424Z] 
+[2022-11-21T12:53:01.424Z] boost deploy -e production
+[2022-11-21T12:53:01.424Z] CredentialUnavailableError: endpoints_resolution_error: Error: could not resolve endpoints. Please check network and try again. Detail: ClientAuthError: openid_config_error: Could not retrieve endpoints. Check your authority and verify the .well-known/openid-configuration endpoint returns the required endpoints. Attempted to retrieve endpoints from: https://login.microsoftonline.com/null/v2.0/.well-known/openid-configuration
+[2022-11-21T12:53:01.424Z]     at MsalClientSecret.handleError (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/identity/dist/index.js:697:28)
+[2022-11-21T12:53:01.424Z]     at MsalClientSecret.doGetToken (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/identity/dist/index.js:1815:24)
+[2022-11-21T12:53:01.424Z]     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-21T12:53:01.424Z]     at async Object.withSpan (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-tracing/dist/index.js:140:28)
+[2022-11-21T12:53:01.424Z]     at async tryGetAccessToken (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-rest-pipeline/dist/index.js:1995:32)
+[2022-11-21T12:53:01.424Z]     at async beginRefresh (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-rest-pipeline/dist/index.js:2003:17)
+[2022-11-21T12:53:01.424Z]     at async Object.defaultAuthorizeRequest [as authorizeRequest] (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-rest-pipeline/dist/index.js:2126:25)
+[2022-11-21T12:53:01.424Z]     at async Object.sendRequest (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-rest-pipeline/dist/index.js:2177:13)
+[2022-11-21T12:53:01.424Z]     at async WebSiteManagementClient.sendOperationRequest (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-client/dist/index.js:1920:33)[2022-11-21T14:48:42.693Z] 
+[2022-11-21T14:48:42.693Z] boost deploy -e production
+[2022-11-21T14:48:42.693Z] RestError: The client '4bcbac97-99a2-4c21-aa57-dde0e7350fc1' with object id '4bcbac97-99a2-4c21-aa57-dde0e7350fc1' does not have authorization to perform action 'Microsoft.Web/sites/config/list/action' over scope '/subscriptions/37acae03-76e8-450e-9076-263a9b9f4b9b/resourceGroups/tfmprojectbproductiorg/providers/Microsoft.Web/sites/tfmprojectbproductiorgfunc/config/publishingcredentials' or the scope is invalid. If access was recently granted, please refresh your credentials.
+[2022-11-21T14:48:42.693Z]     at handleErrorResponse (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-client/dist/index.js:1284:19)
+[2022-11-21T14:48:42.693Z]     at deserializeResponseBody (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-client/dist/index.js:1219:45)
+[2022-11-21T14:48:42.693Z]     at processTicksAndRejections (node:internal/process/task_queues:96:5)[2022-11-21T15:51:21.741Z] 
+[2022-11-21T15:51:21.741Z] boost deploy -e production
+[2022-11-21T15:51:21.741Z] ChildProcessError: Command failed: npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies
+[2022-11-21T15:51:21.741Z] non-zero exit code 1
+[2022-11-21T15:51:21.741Z]  `npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies` (exited with error code 1)
+[2022-11-21T15:51:21.741Z]     at callback (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/child-process-promise/lib/index.js:33:27)
+[2022-11-21T15:51:21.741Z]     at ChildProcess.exithandler (node:child_process:406:5)
+[2022-11-21T15:51:21.741Z]     at ChildProcess.emit (node:events:526:28)
+[2022-11-21T15:51:21.741Z]     at maybeClose (node:internal/child_process:1092:16)
+[2022-11-21T15:51:21.741Z]     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)[2022-11-21T16:01:54.170Z] 
+[2022-11-21T16:01:54.170Z] boost deploy -e production
+[2022-11-21T16:01:54.170Z] RestError: The client '4bcbac97-99a2-4c21-aa57-dde0e7350fc1' with object id '4bcbac97-99a2-4c21-aa57-dde0e7350fc1' does not have authorization to perform action 'Microsoft.Web/sites/config/list/action' over scope '/subscriptions/37acae03-76e8-450e-9076-263a9b9f4b9b/resourceGroups/tfmprojectdproductiorg/providers/Microsoft.Web/sites/tfmprojectdproductiorgfunc/config/publishingcredentials' or the scope is invalid. If access was recently granted, please refresh your credentials.
+[2022-11-21T16:01:54.170Z]     at handleErrorResponse (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-client/dist/index.js:1284:19)
+[2022-11-21T16:01:54.170Z]     at deserializeResponseBody (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-client/dist/index.js:1219:45)
+[2022-11-21T16:01:54.170Z]     at processTicksAndRejections (node:internal/process/task_queues:96:5)[2022-11-21T16:23:31.487Z] 
+[2022-11-21T16:23:31.487Z] boost deploy -e production
+[2022-11-21T16:23:31.487Z] RestError: The client '4bcbac97-99a2-4c21-aa57-dde0e7350fc1' with object id '4bcbac97-99a2-4c21-aa57-dde0e7350fc1' does not have authorization to perform action 'Microsoft.Web/sites/config/list/action' over scope '/subscriptions/37acae03-76e8-450e-9076-263a9b9f4b9b/resourceGroups/tfmprojecteproductiorg/providers/Microsoft.Web/sites/tfmprojecteproductiorgfunc/config/publishingcredentials' or the scope is invalid. If access was recently granted, please refresh your credentials.
+[2022-11-21T16:23:31.487Z]     at handleErrorResponse (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-client/dist/index.js:1284:19)
+[2022-11-21T16:23:31.487Z]     at deserializeResponseBody (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/@azure/core-client/dist/index.js:1219:45)
+[2022-11-21T16:23:31.487Z]     at processTicksAndRejections (node:internal/process/task_queues:96:5)[2022-11-21T16:40:51.225Z] 
+[2022-11-21T16:40:51.225Z] boost deploy -e production
+[2022-11-21T16:40:51.225Z] ChildProcessError: Command failed: npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies
+[2022-11-21T16:40:51.225Z] non-zero exit code 1
+[2022-11-21T16:40:51.225Z]  `npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies` (exited with error code 1)
+[2022-11-21T16:40:51.225Z]     at callback (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/child-process-promise/lib/index.js:33:27)
+[2022-11-21T16:40:51.225Z]     at ChildProcess.exithandler (node:child_process:406:5)
+[2022-11-21T16:40:51.225Z]     at ChildProcess.emit (node:events:526:28)
+[2022-11-21T16:40:51.225Z]     at maybeClose (node:internal/child_process:1092:16)
+[2022-11-21T16:40:51.225Z]     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)[2022-11-21T16:55:56.525Z] 
+[2022-11-21T16:55:56.525Z] boost deploy -e production
+[2022-11-21T16:55:56.525Z] CLI version 1.0.1 is lower than your project Booster version 1.3.0. Please upgrade your @boostercloud/cli to the same version with "npm install -g @boostercloud/cli@1.3.0"[2022-11-21T16:59:03.400Z] 
+[2022-11-21T16:59:03.400Z] boost deploy -e production
+[2022-11-21T16:59:03.400Z] Error: [38;5;210mProject contains compilation errors[39m
+[2022-11-21T16:59:03.400Z] {"reason":{"name":"ChildProcessError","code":1,"childProcess":{},"stdout":"\n> tfm-project@0.1.0 build\n> ttsc -b tsconfig.json\n\nsrc/config/config.ts(3,34): error TS2307: Cannot find module '../../../../rocket-encryption-azure-infrastructure' or its corresponding type declarations.\n","stderr":""},"_tag":"ProcessError"}
+[2022-11-21T16:59:03.400Z]     at /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/dist/common/errors.js:17:68
+[2022-11-21T16:59:03.400Z]     at /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Effect/orDieWith.js:33:56
+[2022-11-21T16:59:03.400Z]     at Object.fold_ (/Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Either/core.js:417:23)
+[2022-11-21T16:59:03.400Z]     at HandlerFrame.apply (/Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Effect/foldM.js:33:52)
+[2022-11-21T16:59:03.400Z]     at FiberContext.nextInstr (/Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Fiber/context.js:391:16)
+[2022-11-21T16:59:03.400Z]     at FiberContext.evaluateNow (/Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Fiber/context.js:870:40)
+[2022-11-21T16:59:03.400Z]     at /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Fiber/context.js:558:47
+[2022-11-21T16:59:03.400Z]     at /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Support/Scheduler/index.js:20:22
+[2022-11-21T16:59:03.400Z]     at processTicksAndRejections (node:internal/process/task_queues:96:5)[2022-11-21T17:03:00.225Z] 
+[2022-11-21T17:03:00.225Z] boost deploy -e production
+[2022-11-21T17:03:00.225Z] Error: [38;5;210mProject contains compilation errors[39m
+[2022-11-21T17:03:00.225Z] {"reason":{"name":"ChildProcessError","code":1,"childProcess":{},"stdout":"\n> tfm-project@0.1.0 build\n> ttsc -b tsconfig.json\n\nsrc/config/config.ts(3,34): error TS2307: Cannot find module '../../../../rocket-encryption-azure-infrastructure' or its corresponding type declarations.\n","stderr":""},"_tag":"ProcessError"}
+[2022-11-21T17:03:00.225Z]     at /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/dist/common/errors.js:17:68
+[2022-11-21T17:03:00.225Z]     at /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Effect/orDieWith.js:33:56
+[2022-11-21T17:03:00.225Z]     at Object.fold_ (/Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Either/core.js:417:23)
+[2022-11-21T17:03:00.225Z]     at HandlerFrame.apply (/Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Effect/foldM.js:33:52)
+[2022-11-21T17:03:00.225Z]     at FiberContext.nextInstr (/Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Fiber/context.js:391:16)
+[2022-11-21T17:03:00.225Z]     at FiberContext.evaluateNow (/Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Fiber/context.js:870:40)
+[2022-11-21T17:03:00.225Z]     at /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Fiber/context.js:558:47
+[2022-11-21T17:03:00.225Z]     at /Users/Juanjo/.nvm/versions/node/v16.14.2/lib/node_modules/@boostercloud/cli/node_modules/@effect-ts/system/Support/Scheduler/index.js:20:22
+[2022-11-21T17:03:00.225Z]     at processTicksAndRejections (node:internal/process/task_queues:96:5)[2022-11-21T17:07:38.306Z] 
+[2022-11-21T17:07:38.306Z] boost deploy -e production
+[2022-11-21T17:07:38.307Z] ChildProcessError: Command failed: npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies
+[2022-11-21T17:07:38.307Z] non-zero exit code 1
+[2022-11-21T17:07:38.307Z]  `npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies` (exited with error code 1)
+[2022-11-21T17:07:38.307Z]     at callback (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/child-process-promise/lib/index.js:33:27)
+[2022-11-21T17:07:38.307Z]     at ChildProcess.exithandler (node:child_process:406:5)
+[2022-11-21T17:07:38.307Z]     at ChildProcess.emit (node:events:526:28)
+[2022-11-21T17:07:38.307Z]     at maybeClose (node:internal/child_process:1092:16)
+[2022-11-21T17:07:38.307Z]     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)[2022-11-21T17:14:04.199Z] 
+[2022-11-21T17:14:04.199Z] boost deploy -e production
+[2022-11-21T17:14:04.199Z] ChildProcessError: Command failed: npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies
+[2022-11-21T17:14:04.199Z] non-zero exit code 1
+[2022-11-21T17:14:04.199Z]  `npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies` (exited with error code 1)
+[2022-11-21T17:14:04.199Z]     at callback (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/child-process-promise/lib/index.js:33:27)
+[2022-11-21T17:14:04.199Z]     at ChildProcess.exithandler (node:child_process:406:5)
+[2022-11-21T17:14:04.199Z]     at ChildProcess.emit (node:events:526:28)
+[2022-11-21T17:14:04.199Z]     at maybeClose (node:internal/child_process:1092:16)
+[2022-11-21T17:14:04.199Z]     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)[2022-11-21T17:21:42.987Z] 
+[2022-11-21T17:21:42.987Z] boost deploy -e production
+[2022-11-21T17:21:42.987Z] ChildProcessError: Command failed: npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies
+[2022-11-21T17:21:42.987Z] non-zero exit code 1
+[2022-11-21T17:21:42.987Z]  `npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies` (exited with error code 1)
+[2022-11-21T17:21:42.987Z]     at callback (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/child-process-promise/lib/index.js:33:27)
+[2022-11-21T17:21:42.987Z]     at ChildProcess.exithandler (node:child_process:406:5)
+[2022-11-21T17:21:42.987Z]     at ChildProcess.emit (node:events:526:28)
+[2022-11-21T17:21:42.987Z]     at maybeClose (node:internal/child_process:1092:16)
+[2022-11-21T17:21:42.987Z]     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)[2022-11-21T17:34:11.460Z] 
+[2022-11-21T17:34:11.460Z] boost deploy -e production
+[2022-11-21T17:34:11.460Z] ChildProcessError: Command failed: npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies
+[2022-11-21T17:34:11.460Z] non-zero exit code 1
+[2022-11-21T17:34:11.460Z]  `npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies` (exited with error code 1)
+[2022-11-21T17:34:11.461Z]     at callback (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/child-process-promise/lib/index.js:33:27)
+[2022-11-21T17:34:11.461Z]     at ChildProcess.exithandler (node:child_process:406:5)
+[2022-11-21T17:34:11.461Z]     at ChildProcess.emit (node:events:526:28)
+[2022-11-21T17:34:11.461Z]     at maybeClose (node:internal/child_process:1092:16)
+[2022-11-21T17:34:11.461Z]     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)[2022-11-21T17:42:29.581Z] 
+[2022-11-21T17:42:29.581Z] boost deploy -e production
+[2022-11-21T17:42:29.581Z] ChildProcessError: Command failed: npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies
+[2022-11-21T17:42:29.581Z] non-zero exit code 1
+[2022-11-21T17:42:29.581Z]  `npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies` (exited with error code 1)
+[2022-11-21T17:42:29.581Z]     at callback (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/child-process-promise/lib/index.js:33:27)
+[2022-11-21T17:42:29.581Z]     at ChildProcess.exithandler (node:child_process:406:5)
+[2022-11-21T17:42:29.581Z]     at ChildProcess.emit (node:events:526:28)
+[2022-11-21T17:42:29.581Z]     at maybeClose (node:internal/child_process:1092:16)
+[2022-11-21T17:42:29.581Z]     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)[2022-11-22T14:21:15.712Z] 
+[2022-11-22T14:21:15.712Z] boost deploy -e production
+[2022-11-22T14:21:15.712Z] ChildProcessError: Command failed: npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies
+[2022-11-22T14:21:15.712Z] non-zero exit code 1
+[2022-11-22T14:21:15.712Z]  `npx cdktf-cli deploy --auto-approve --ignore-missing-stack-dependencies` (exited with error code 1)
+[2022-11-22T14:21:15.712Z]     at callback (/Users/Juanjo/Documents/theam/tfm-project/tfm-project/node_modules/child-process-promise/lib/index.js:33:27)
+[2022-11-22T14:21:15.712Z]     at ChildProcess.exithandler (node:child_process:406:5)
+[2022-11-22T14:21:15.712Z]     at ChildProcess.emit (node:events:526:28)
+[2022-11-22T14:21:15.712Z]     at maybeClose (node:internal/child_process:1092:16)
+[2022-11-22T14:21:15.712Z]     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)[2022-11-23T11:26:52.888Z] 
+[2022-11-23T11:26:52.888Z] boost deploy -e production
+[2022-11-23T11:26:52.888Z] Cannot read properties of undefined (reading 'length')[2022-11-23T12:07:14.635Z] 
+[2022-11-23T12:07:14.635Z] boost deploy -e production
+[2022-11-23T12:07:14.635Z] CLI version 1.3.0 is higher than your project Booster version 1.0.1 in the 'feature' section. Please upgrade your project Booster dependencies.[2022-11-23T14:53:24.254Z] 
+[2022-11-23T14:53:24.254Z] boost deploy -e production
+[2022-11-23T14:53:24.254Z] CLI version 1.0.1 is lower than your project Booster version 1.3.0. Please upgrade your @boostercloud/cli to the same version with "npm install -g @boostercloud/cli@1.3.0"
