@@ -5,6 +5,8 @@ export {
   boosterServeGraphQL,
   boosterNotifySubscribers,
   boosterTriggerScheduledCommand,
+  boosterRocketDispatcher,
 } from '@boostercloud/framework-core'
+require('dotenv').config()
 
 Booster.start(__dirname)

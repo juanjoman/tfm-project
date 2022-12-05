@@ -1,10 +1,14 @@
 import { Register, UUID } from '@boostercloud/framework-types'
 import { TestEvent } from '../events/test'
+import { Command } from '@boostercloud/framework-core'
 
-export class Test {
-  public constructor(readonly id: UUID, readonly name: string) {}
+@Command({
+  authorize: 'all',
+})
+export class TestCommand {
+  public constructor(readonly name: string, readonly sku: string) {}
 
-  public static async handle(command: Test, register: Register): Promise<void> {
-    register.events(new TestEvent(UUID.generate(), 'guapisimo', ['que nice', 'tio']))
+  public static async handle(command: TestCommand, register: Register): Promise<void> {
+    register.events(new TestEvent(UUID.generate(), command.name, [command.sku]))
   }
 }
