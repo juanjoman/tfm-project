@@ -1,5 +1,5 @@
 *-debug.log
-*-error.log
+errors.log
 .nyc_output
 dist/
 lib/
@@ -9,3 +9,7 @@ node_modules
 .idea
 coverage
 .booster
+functionApp.zip
+cdktf.json
+cdktf.out/**/*
+.env
